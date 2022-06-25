@@ -5,4 +5,5 @@
     <string name="hello">Hello</string>
     <string name="enter_your_age">Enter Your Age</string>
     <string name="send_age">Send Age</string>
+    <string name="your_age">Your age</string>
 </resources>

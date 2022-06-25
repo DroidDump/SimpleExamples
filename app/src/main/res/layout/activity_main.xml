@@ -51,6 +51,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_send_name" />
 
+    <!-- @deprecated android:onClick -->
+    <!-- Instead, use View.setOnClickListener. -->
     <Button
         android:id="@+id/button_send_age"
         android:layout_width="0dp"
@@ -59,6 +61,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:text="@string/send_age"
+        android:onClick="sendAge"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextAge" />

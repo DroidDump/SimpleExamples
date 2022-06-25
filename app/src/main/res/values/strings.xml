@@ -3,4 +3,6 @@
     <string name="enter_your_name">Enter your name</string>
     <string name="send_name">Send Name</string>
     <string name="hello">Hello</string>
+    <string name="enter_your_age">Enter Your Age</string>
+    <string name="send_age">Send Age</string>
 </resources>
